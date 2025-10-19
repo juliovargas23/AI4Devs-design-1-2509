@@ -2,7 +2,7 @@
 
 Actúa como un *product marketing manager* especializado en soluciones HRTech. Redacta una descripción ejecutiva del Applicant-Tracking System (ATS) **LTI**. Debes:
 
-- Explicar en 2–3 párrafos qué problema resuelve, a quién sirve y qué lo diferencia en el mercado latinoamericano.
+- Explicar en 2–3 párrafos qué problema resuelve, a quién sirve y qué lo diferencia en el mercado.
 - Destacar su propuesta de valor cuantificable (ahorro de tiempo, mejora de conversión, métricas concretas) dirigida a equipos de talento en empresas medianas de tecnología.
 - Cerrar con 3 bullets de ventajas competitivas, cada uno con un titular corto y una frase de soporte.
 - Mantener un tono convincente y profesional; evita jerga vacía y frases genéricas.
@@ -36,7 +36,7 @@ Actúa como *product discovery lead*. Documenta 3 casos de uso prioritarios del 
 
 ## Prompt 5 · Modelo de datos (entidades, atributos y relaciones)
 
-Piensa como arquitecto de datos. Diseña el modelo conceptual y lógico del ATS LTI. Indicaciones:
+Piensa como *arquitecto de datos*. Diseña el modelo conceptual y lógico del ATS LTI. Indicaciones:
 
 - Lista las entidades principales en una tabla con columnas: Entidad, Descripción, Atributos (con tipo de dato y si es obligatorio), Relaciones (nombre de la relación + cardinalidad).
 - Incluye al menos: Empresa, Vacante, Candidato, Postulación, Entrevista, Evaluación, Usuario interno, Pipeline, Métrica agregada.
@@ -45,7 +45,7 @@ Piensa como arquitecto de datos. Diseña el modelo conceptual y lógico del ATS 
 
 ## Prompt 6 · Diseño del sistema a alto nivel
 
-Enfócate como arquitecto de software. Entrega una descripción de arquitectura de alto nivel para el ATS LTI. Debes:
+Enfócate como *arquitecto de software*. Entrega una descripción de arquitectura de alto nivel para el ATS LTI. Debes:
 
 - Explicar en texto (3–4 párrafos) los dominios funcionales, componentes mayores y cómo interactúan: frontend web, backend de servicios, motor de workflows, integraciones externas (job boards, calendarios, HRIS) y capa de analítica.
 - Presentar un diagrama en mermaid `flowchart` o `graph TD` que muestre los componentes, límites de contexto y canales de comunicación (REST, eventos, ETL).
@@ -54,7 +54,7 @@ Enfócate como arquitecto de software. Entrega una descripción de arquitectura 
 
 ## Prompt 7 · Diagrama C4 detallado de un componente
 
-Asume el rol de ingeniero de plataforma. Profundiza en el componente “Motor de workflows de reclutamiento” del ATS LTI y crea un diagrama C4 a nivel Container y Component. Instrucciones:
+Asume el rol de *ingeniero de plataforma*. Profundiza en el componente “Motor de workflows de reclutamiento” del ATS LTI y crea un diagrama C4 a nivel Container y Component. Instrucciones:
 
 - Describe brevemente el contexto (nivel 1) recordando actores externos que interactúan con el motor.
 - Desarrolla el diagrama C4 en texto usando notación estructurada (ya sea con `PlantUML` C4 o mermaid C4 apoyado en comments) incluyendo: contenedores involucrados, componentes internos, responsabilidades y relaciones.
